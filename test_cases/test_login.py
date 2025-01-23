@@ -13,8 +13,7 @@ class Test_login:
         login_page.enter_username("eslam@outlook.com")
         login_page.enter_password("12345678")
         login_page.click_login()
-        time.sleep(2)DWWEFCESF
-
+        time.sleep(2)
     def test_login_invalid_username(self, driver):
         login_page = LoginPage(driver)
         login_page.enter_username("eslam5875@outlook.com")
